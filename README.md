@@ -1,73 +1,23 @@
-# Projecto 1 - IAED 2022/2023
+# Project 1 - Introduction to Algorithms and Data Structures (2022/2023)
+### Submission Date: March 24th, 2023
 
-## Enunciado
+## Overview
+This project implements a public transportation management system. Users can define bus stops and lines, add connections, query routes and intersections through a command-line interface.
 
-O enunciado do projecto está disponível em [enunciado.md](enunciado.md). 
+## Features
+- Add and list bus lines and stops
+- Add connections between stops with cost and duration
+- List intersections between lines
+- Supports circular routes
+- Maximum: 200 lines, 10.000 stops and 30.000 connections.
 
-## Data de entrega: 27 de março 2023, às 19h59
+## Compilation
+gcc -O3 -Wall -Wextra -Werror -ansi -pedantic -o proj1 *.c
 
-Informações detalhadas sobre o processo de submissão estão disponíveis em [informacoes.md](informacoes.md).
+## Notes
+- Uses only standard C libraries: stdio.h, stdlib.h, string.h, ctype.h
+- Incremental development and testing recommended
 
-
-
-# Evaluation
-
-2023-03-27T10:33:54
-
-## Test 1: [+ Accepted+].
-## Test 2: [+ Accepted+].
-## Test 3: [+ Accepted+].
-## Test 4: [+ Accepted+].
-## Test 5: [+ Accepted+].
-## Test 6: [- Wrong Answer-].
-
-
-## Test 7: [+ Accepted+].
-## Test 8: [+ Accepted+].
-## Test 9: [+ Accepted+].
-## Test 10: [+ Accepted+].
-## Test 11: [- Wrong Answer-].
-
-
-## Test 12: [+ Accepted+].
-## Test 13: [- Wrong Answer-].
-
-
-## Test 14: [+ Accepted+].
-## Test 15: [+ Accepted+].
-## Test 16: [+ Accepted+].
-## Test 17: [- Wrong Answer-].
-
-
-## Test 18: [+ Accepted+].
-## Test 19: [+ Accepted+].
-## Test 20: [+ Accepted+].
-## Test 21: [+ Accepted+].
-## Test 22: [+ Accepted+].
-## Test 23: [+ Accepted+].
-## Test 24: [+ Accepted+].
-## Test 25: [- Wrong Answer-].
-
-
-## Test 26: [- Wrong Answer-].
-
-
-## Test 27: [- Command terminated by signal (11: SIGSEGV)-].
-
-## Test 28: [- Command terminated by signal (11: SIGSEGV)-].
-
-## Test 29: [- Command terminated by signal (11: SIGSEGV)-].
-
-## Test 30: [- Command terminated by signal (11: SIGSEGV)-].
-
-## Test 31: [- Command terminated by signal (11: SIGSEGV)-].
-
-## Test 32: [- Command terminated by signal (11: SIGSEGV)-].
-
-
-
-## Number of passed tests: 20/32
-
-
-Your code will not be reevaluated if you submit before 2023-03-27 10:43:54 @ Lisbon, Portugal. You need to wait 10 minute(s).
-
+## Project Structure
+- project1.c - main implementation
+- enunciado.md, guidelines.md, informacoes.md - project intructions, guidelines and relevant information
